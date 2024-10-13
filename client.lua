@@ -13,7 +13,7 @@ CreateThread(function()
   end
 end)
 
-RegisterNetEvent("jax-minimap", function(color)
+RegisterNetEvent("nexis-minimap", function(color)
   SendNUIMessage({
       data = "updateColor",
       color = color
