@@ -60,7 +60,7 @@ end)
 
 CreateThread(function()
   SetRadarBigmapEnabled(true, false)
-  Wait(1000)  -- Wait for 1 second to ensure the radar is initialized
+  Wait(1000)
   SetRadarBigmapEnabled(false, false)
   SetRadarZoom(1000)
 end)
