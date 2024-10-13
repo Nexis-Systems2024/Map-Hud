@@ -1,0 +1,64 @@
+/* Minimap */
+
+.outline {
+  position: fixed;
+  bottom: 6vh;
+  left: 1.05vh;
+  /* overflow: hidden; */
+  width: 34.529vh;
+  text-align: center;
+}
+
+.mapborder {
+  width: 24.9vh;
+  height: 16.2vh;
+  border-style: solid;
+  border-width: 0.45vh;
+  border-radius: 8px;
+  border-color: #a733a9;
+  position: relative;
+  right: 32.25px;
+  top: 35px;
+  display: inline-block;
+}
+
+/* HEALTH BAR */
+#heal {
+  position: absolute;
+  left: 24px;
+  bottom: 10.052px;
+  width: 6.9%;
+  height: 0.9%;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  border-color: #a733a9;
+}
+
+#healBar {
+  background: #0a6600;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+/* ARMOR BAR */
+#armor {
+  position: absolute;
+  left: 175px;
+  bottom: 10.052px;
+  width: 6.9%;
+  height: 0.9%;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  border-color: #a733a9;
+}
+
+
+#armorBar {
+  background: #0a6600;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
